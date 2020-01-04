@@ -358,4 +358,4 @@ bot.on('ready', () => {
     console.error(`ID : ${bot.user.id}`)
 })
 
-bot.login(config.token)
+bot.login(process.env.token)
